@@ -21,10 +21,11 @@
         <section class="hero">
             <div class="content">
                 <picture>
-                    <source media="(min-width: 320px)" srcset="images/nicky-xsmall.jpg">
-                    <source media="(min-width: 640px)" srcset="images/nicky-small.jpg">
-                    <source media="(min-width: 960px)" srcset="images/nicky-med.jpg">
                     <source media="(min-width: 1024px)" srcset="images/nicky-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/nicky-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/nicky-small.jpg">
+                    <source media="(min-width: 320px)" srcset="images/nicky-xsmall.jpg">
+
                     <img class="mypicture" src="images/nicky-small.jpg" alt="Me!">
                 </picture>
                 <p class="my-name">Nicky Gundersen</p>
@@ -50,10 +51,11 @@
             <figure>
                 <p>
                     <picture>
-                        <source media="(min-width: 320px)" srcset="images/Amanita_muscaria-xsmall.jpg">
-                        <source media="(min-width: 640px)" srcset="images/Amanita_muscaria-small.jpg">
-                        <source media="(min-width: 960px)" srcset="images/Amanita_muscaria-med.jpg">
+
                         <source media="(min-width: 1024px)" srcset="images/Amanita_muscaria-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/Amanita_muscaria-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/Amanita_muscaria-small.jpg">
+                        <source media="(min-width: 320px)" srcset="images/Amanita_muscaria-xsmall.jpg">
                         <img class="mushroom1" src="images/Amanita_muscaria-small.jpg" alt="Cool mushroom">
                     </picture>
                     <figcaption>
@@ -66,10 +68,13 @@
             <figure>
                 <p>
                     <picture>
-                        <source media="(min-width: 320px)" srcset="images/trametes_versicolor-xsmall.jpg">
-                        <source media="(min-width: 640px)" srcset="images/trametes_versicolor-small.jpg">
-                        <source media="(min-width: 960px)" srcset="images/trametes_versicolor-med.jpg">
+
+
+
                         <source media="(min-width: 1024px)" srcset="images/trametes_versicolor-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/trametes_versicolor-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/trametes_versicolor-small.jpg">
+                        <source media="(min-width: 320px)" srcset="images/trametes_versicolor-xsmall.jpg">
                         <img class="mushroom2" src="images/trametes_versicolor-small.jpg" alt="A turkey tail..perhaps">
                     </picture>
                     <figcaption>
@@ -81,10 +86,12 @@
             <figure>
                 <p>
                     <picture>
-                        <source media="(min-width: 320px)" srcset="images/artomyces_pyxidatus-xsmall.jpg">
-                        <source media="(min-width: 640px)" srcset="images/artomyces_pyxidatus-small.jpg">
-                        <source media="(min-width: 960px)" srcset="images/artomyces_pyxidatus-med.jpg">
                         <source media="(min-width: 1024px)" srcset="images/artomyces_pyxidatus-lrg.jpg">
+                        <source media="(min-width: 960px)" srcset="images/artomyces_pyxidatus-med.jpg">
+                        <source media="(min-width: 640px)" srcset="images/artomyces_pyxidatus-small.jpg">
+                        <source media="(min-width: 320px)" srcset="images/artomyces_pyxidatus-xsmall.jpg">
+
+
                         <img class="mushroom3" src="images/artomyces_pyxidatus-small.jpg" alt="Coral!">
                     </picture>
                     <figcaption>
@@ -153,34 +160,38 @@
     </h1>
 
     <section class="form-container">
-           
-                <form method="POST" action="https://formspree.io/g00266522@stu.raritanval.edu">
-                   <fieldset>
-                <legend> Send me anything! </legend>
-                    <h4>Email</h4>
-                    <input type="email" name="email">
-                    <br>
-                    <fieldset>
-                        <legend> I would like a reply </legend>
-                        <input type="radio" id="Yes" name="emailreply" name="choice1"> <label for="Yes">Yes</label><br>
 
-                        <input type="radio" id="No" name="emailreply" name="choice2"> <label for="No">No</label>
-                        <br>
-                    </fieldset>
-                    <h4>Message</h4>
-                    <textarea name="message"></textarea>
+        <form method="POST" action="https://formspree.io/g00266522@stu.raritanval.edu">
+            <fieldset>
+                <legend> Send me anything! </legend>
+                <h4>Email</h4>
+                <input type="email" name="email" placeholder="Your email here">
+                <br>
+                <fieldset>
+                    <legend> I would like a reply </legend>
+                    <input type="radio" id="Yes" name="emailreply" name="choice1"> <label for="Yes">Yes</label><br>
+
+                    <input type="radio" id="No" name="emailreply" name="choice2"> <label for="No">No</label>
                     <br>
-                    <button type="submit">Send email</button>
-                    
-                    
                 </fieldset>
-                </form>
-            
+                <h4>Message</h4>
+                <textarea name="message" placeholder="Your message here"></textarea>
+                <br>
+                <button type="submit">Send email</button>
+
+
+            </fieldset>
+        </form>
+
 
     </section>
-</body>
 <hr>
 
 <footer>
     <p class="footer">Nicky Gundersen &#169; 2019</p>
 </footer>
+
+
+
+</body>
+
